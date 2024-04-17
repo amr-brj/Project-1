@@ -1,0 +1,65 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+}
+body { 
+    min-height: 100vh;
+    background-color: #00203a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+}
+.container {
+    min-height: fit-content;
+}
+h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: fit-content;
+}
+h1 span {
+    display: block;
+    color: #017d4b;
+    border-bottom: 5px solid #017d4b;
+    padding-bottom: 10px;
+    font-size: 44px;
+}
+.pass-div {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    height: 70px;
+    width: 500px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+.pass-div p {
+    font-size: 25px;
+    color: #666666;
+}
+.pass-div i {
+    color: #017d4b;
+    font-size: 34px;
+    cursor: not-allowed;
+}
+.pointer {
+    cursor: pointer !important;
+}
+.click {
+    width: fit-content;
+    padding: 20px;
+    background-color: #017d4b;
+    color: white;
+    cursor: pointer;
+    font-size: 28px;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: block;
+    user-select: none;
+}
